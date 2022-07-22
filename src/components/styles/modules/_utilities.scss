@@ -1,0 +1,287 @@
+@import "~bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-family":
+      map-merge(
+        map-get($utilities, "font-family"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-family"), "values"),
+              (
+                AndesRoundedBlack: $fonts-AndesRoundedBlack,
+                AndesRoundedBold: $fonts-AndesRoundedBold,
+                AndesRoundedExtraBold: $fonts-AndesRoundedExtraBold,
+                AndesRoundedExtraLight: $fonts-AndesRoundedExtraLight,
+                AndesRoundedRegular: $fonts-AndesRoundedRegular,
+                AndesRoundedSemiBold: $fonts-AndesRoundedSemiBold,
+                AndesRoundedUltraLight: $fonts-AndesRoundedUltraLight,
+                Archivo-Black: $fonts-Archivo-Black,
+                Archivo-BlackItalic: $fonts-Archivo-BlackItalic,
+                Archivo-Bold: $fonts-Archivo-Bold,
+                Archivo-BoldItalic: $fonts-Archivo-BoldItalic,
+                Archivo-ExtraBold: $fonts-Archivo-ExtraBold,
+                Archivo-ExtraBoldItalic: $fonts-Archivo-ExtraBoldItalic,
+                Archivo-ExtraLight: $fonts-Archivo-ExtraLight,
+                Archivo-ExtraLightItalic: $fonts-Archivo-ExtraLightItalic,
+                Archivo-Italic: $fonts-Archivo-Italic,
+                Archivo-Light: $fonts-Archivo-Light,
+                Archivo-LightItalic: $fonts-Archivo-LightItalic,
+                Archivo-Medium: $fonts-Archivo-Medium,
+                Archivo-MediumItalic: $fonts-Archivo-MediumItalic,
+                Archivo-Regular: $fonts-Archivo-Regular,
+                Archivo-SemiBold: $fonts-Archivo-SemiBold,
+                Archivo-SemiBoldItalic: $fonts-Archivo-SemiBoldItalic,
+                Archivo-Thin: $fonts-Archivo-Thin,
+                Archivo-ThinItalic: $fonts-Archivo-ThinItalic,
+              )
+            ),
+        )
+      ),
+    "fs": (
+      property: font-size,
+      responsive: true,
+      class: fs,
+      values: (
+        1: $h1-font-size,
+        2: $h2-font-size,
+        3: $h3-font-size,
+        4: $h4-font-size,
+        5: $h5-font-size,
+        base: $font-size-base,
+        18: 1.125rem,
+        10: 10px,
+        14: 14px,
+        15: 15px,
+        16: 16px,
+      ),
+    ),
+    "object": (
+      responsive: true,
+      property: object-fit,
+      class: object,
+      values: (
+        cover,
+        contain,
+        full,
+      ),
+    ),
+    "object-position": (
+      property: object-position,
+      class: object-position,
+      values: (
+        top,
+        center,
+        bottom,
+      ),
+    ),
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      values: auto pointer grab none,
+    ),
+    "text-opacity": (
+      css-var: true,
+      css-variable-name: text-alpha,
+      class: text-opacity,
+      values: (
+        10: 0.1,
+        30: 0.3,
+        50: 0.5,
+        70: 0.7,
+        100: 1,
+      ),
+    ),
+    "bg-opacity": (
+      css-var: true,
+      class: bg-opacity,
+      values: (
+        10: 0.1,
+        25: 0.25,
+        30: 0.3,
+        50: 0.5,
+        75: 0.75,
+        100: 1,
+      ),
+    ),
+    "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: (
+        light: $font-weight-light,
+        lighter: $font-weight-lighter,
+        normal: $font-weight-normal,
+        medium: 500,
+        semibold: 600,
+        bold: $font-weight-bold,
+        extrabold: 800,
+        black: 900,
+        bolder: $font-weight-bolder,
+      ),
+    ),
+    "max-width": (
+      responsive: true,
+      property: max-width,
+      class: mw,
+      values: (
+        100: 100%,
+        260: 260px,
+        312: 312px,
+        536: 536px,
+        744: 744px,
+        912: 912px,
+      ),
+    ),
+    "min-width": (
+      property: min-width,
+      responsive: true,
+      class: minw,
+      values: (
+        100: 100%,
+        20: 20px,
+        312: 312px,
+        680: 680px,
+      ),
+    ),
+    "max-height": (
+      responsive: true,
+      property: max-height,
+      class: mh,
+      values: (
+        100: 100%,
+        475: 475px,
+        553: 553px,
+      ),
+    ),
+    "min-height": (
+      responsive: true,
+      property: min-height,
+      class: minh,
+      values: (
+        100: 100%,
+        360: 360px,
+        580: 580px,
+        758: 758px,
+        957: 957px,
+        20: 20px,
+      ),
+    ),
+    "width": (
+      responsive: true,
+      property: width,
+      class: w,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto,
+        // 140: 160px,
+        88: 88px,
+        160: 160px,
+        200: 200px,
+        260: 260px,
+        fit: fit-content,
+      ),
+    ),
+    "height": (
+      responsive: true,
+      property: height,
+      class: h,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto,
+        48: 48px,
+        56: 56px,
+        220: 220px,
+      ),
+    ),
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: (
+        null: $border-radius,
+        0: 0,
+        1: $border-radius-sm,
+        2: $border-radius,
+        3: $border-radius-lg,
+        4: 4px,
+        5: 5px,
+        circle: 50%,
+        pill: $border-radius-pill,
+        10: 10px,
+      ),
+    ),
+    "zindex": (
+      property: z-index,
+      class: zindex,
+      values: (
+        n1: -1,
+        0: 0,
+        1: 1,
+        2: 2,
+        5: 5,
+      ),
+    ),
+    "border-style": (
+      property: border-style,
+      class: border-style,
+      values: (
+        dashed,
+      ),
+    ),
+    "-webkit-line-clamp": (
+      property: -webkit-line-clamp,
+      class: lcl,
+      values: (
+        1,
+        2,
+        3,
+      ),
+    ),
+    "translate-middle": (
+      responsive: true,
+      property: transform,
+      class: translate-middle,
+      values: (
+        null: translate(-50%, -50%),
+        x: translateX(-50%),
+        y: translateY(-50%),
+      ),
+    ),
+    "position": (
+      responsive: true,
+      property: position,
+      values: static relative absolute fixed sticky,
+    ),
+    "top": (
+      property: top,
+      responsive: true,
+      values: $position-values,
+    ),
+    "bottom": (
+      property: bottom,
+      responsive: true,
+      values: $position-values,
+    ),
+    "start": (
+      property: left,
+      class: start,
+      responsive: true,
+      values: $position-values,
+    ),
+    "end": (
+      property: right,
+      class: end,
+      responsive: true,
+      values: $position-values,
+    ),
+  )
+);
+
+@import "~bootstrap/scss/utilities/api";

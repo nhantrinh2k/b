@@ -1,0 +1,140 @@
+//fonts-family
+$fonts-AndesRoundedBlack: AndesRoundedBlack, sans-serif !default;
+$fonts-AndesRoundedBold: AndesRoundedBold, sans-serif !default;
+$fonts-AndesRoundedExtraBold: AndesRoundedExtraBold, sans-serif !default;
+$fonts-AndesRoundedExtraLight: AndesRoundedExtraLight, sans-serif !default;
+$fonts-AndesRoundedRegular: AndesRoundedRegular, sans-serif !default;
+$fonts-AndesRoundedSemiBold: AndesRoundedSemiBold, sans-serif !default;
+$fonts-AndesRoundedUltraLight: AndesRoundedUltraLight, sans-serif !default;
+$fonts-Archivo-Black: Archivo-Black, sans-serif !default;
+$fonts-Archivo-BlackItalic: Archivo-BlackItalic, sans-serif !default;
+$fonts-Archivo-Bold: Archivo-Bold, sans-serif !default;
+$fonts-Archivo-BoldItalic: Archivo-BoldItalic, sans-serif !default;
+$fonts-Archivo-ExtraBold: Archivo-ExtraBold, sans-serif !default;
+$fonts-Archivo-ExtraBoldItalic: Archivo-ExtraBoldItalic, sans-serif !default;
+$fonts-Archivo-ExtraLight: Archivo-ExtraLight, sans-serif !default;
+$fonts-Archivo-ExtraLightItalic: Archivo-ExtraLightItalic, sans-serif !default;
+$fonts-Archivo-Italic: Archivo-Italic, sans-serif !default;
+$fonts-Archivo-Light: Archivo-Light, sans-serif !default;
+$fonts-Archivo-LightItalic: Archivo-LightItalic, sans-serif !default;
+$fonts-Archivo-Medium: Archivo-Medium, sans-serif !default;
+$fonts-Archivo-MediumItalic: Archivo-MediumItalic, sans-serif !default;
+$fonts-Archivo-Regular: Archivo-Regular, sans-serif !default;
+$fonts-Archivo-SemiBold: Archivo-SemiBold, sans-serif !default;
+$fonts-Archivo-SemiBoldItalic: Archivo-SemiBoldItalic, sans-serif !default;
+$fonts-Archivo-Thin: Archivo-Thin, sans-serif !default;
+$fonts-Archivo-ThinItalic: Archivo-ThinItalic, sans-serif !default;
+// end of font
+$font-size-base: 1rem !default;
+$h1-font-size: 3rem !default;
+$h2-font-size: 2.5rem !default;
+$h3-font-size: 2rem !default;
+$h4-font-size: 1.5rem !default;
+$h5-font-size: 1.25rem !default;
+$headings-font-family: $fonts-AndesRoundedExtraBold;
+$headings-line-height: 120%;
+$darkBlue: #002855;
+$mallardGreen: #3f5b58;
+$lightBlue: #489ed8;
+$lightBlue-50: #edf6fc;
+$red: #c8192e;
+$green: #597e50;
+$accent: #f4eddf;
+$white: #fff;
+$black: #1f1d1e;
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-450: #b3bfcc;
+$gray-500: #9fadac;
+$gray-550: #9a9ea6;
+$gray-600: #798d8b;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$primary: $darkBlue;
+$secondary: $mallardGreen;
+$success: $lightBlue;
+$info: $green;
+$warning: $accent;
+$danger: $red;
+$light: $white;
+$dark: $black;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "gray-600": $gray-600,
+  "gray-500": $gray-500,
+  "gray-550": $gray-550,
+  "gray-450": $gray-450,
+  "gray-400": $gray-400,
+  "gray-100": $gray-100,
+  "lightBlue-50": $lightBlue-50,
+);
+
+$grid-gutter-width: 32px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 1370px,
+) !default;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  1rem: 1rem,
+  3rem: 3rem,
+  4rem: 4rem,
+  6: 6rem,
+  10: 10px,
+  18: 18px,
+  20: 1.25rem,
+  45: 45px,
+  60: 60px,
+  69: 69px,
+  74: 74px,
+  75: 75px,
+  80: 80px,
+  88: 88px,
+  98: 98px,
+  124: 124px,
+  172: 172px,
+  210: 210px,
+  231: 231px,
+  313: 313px,
+);
+
+$border-radius: 10px;
+
+$font-family-base: $fonts-Archivo-Regular;
+$body-bg: $gray-100;
+$body-color: $dark;
+$enable-negative-margins: true;
+$form-check-input-checked-bg-color: $green;
+$form-check-input-checked-border-color: $green;

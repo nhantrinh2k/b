@@ -1,0 +1,253 @@
+// AndesRounded fonts
+@font-face {
+    font-family: "AndesRoundedBlack";
+    src: url("/fonts/AndesRounded/AndesRoundedBlack.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedBlack.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedBlack.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AndesRoundedBold";
+    src: url("/fonts/AndesRounded/AndesRoundedBold.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedBold.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AndesRoundedExtraBold";
+    src: url("/fonts/AndesRounded/AndesRoundedExtraBold.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedExtraBold.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AndesRoundedExtraLight";
+    src: url("/fonts/AndesRounded/AndesRoundedExtraLight.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedExtraLight.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AndesRoundedRegular";
+    src: url("/fonts/AndesRounded/AndesRoundedRegular.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedRegular.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AndesRoundedSemiBold";
+    src: url("/fonts/AndesRounded/AndesRoundedSemiBold.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedSemiBold.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedSemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AndesRoundedUltraLight";
+    src: url("/fonts/AndesRounded/AndesRoundedUltraLight.woff2") format("woff2"),
+      url("/fonts/AndesRounded/AndesRoundedUltraLight.woff") format("woff"),
+      url("/fonts/AndesRounded/AndesRoundedUltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  // Archivo fonts
+  
+  @font-face {
+    font-family: "Archivo-Black";
+    src: url("/fonts/Archivo/Archivo-Black.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Black.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-BlackItalic";
+    src: url("/fonts/Archivo/Archivo-BlackItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-BlackItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Bold";
+    src: url("/fonts/Archivo/Archivo-Bold.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Bold.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-BoldItalic";
+    src: url("/fonts/Archivo/Archivo-BoldItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-BoldItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-ExtraBold";
+    src: url("/fonts/Archivo/Archivo-ExtraBold.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-ExtraBold.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-ExtraBoldItalic";
+    src: url("/fonts/Archivo/Archivo-ExtraBoldItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-ExtraBoldItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-ExtraLight";
+    src: url("/fonts/Archivo/Archivo-ExtraLight.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-ExtraLight.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-ExtraLightItalic";
+    src: url("/fonts/Archivo/Archivo-ExtraLightItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-ExtraLightItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Italic";
+    src: url("/fonts/Archivo/Archivo-Italic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Italic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Light";
+    src: url("/fonts/Archivo/Archivo-Light.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Light.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-LightItalic";
+    src: url("/fonts/Archivo/Archivo-LightItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-LightItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Medium";
+    src: url("/fonts/Archivo/Archivo-Medium.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Medium.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-MediumItalic";
+    src: url("/fonts/Archivo/Archivo-MediumItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-MediumItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Regular";
+    src: url("/fonts/Archivo/Archivo-Regular.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Regular.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-SemiBold";
+    src: url("/fonts/Archivo/Archivo-SemiBold.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-SemiBold.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-SemiBoldItalic";
+    src: url("/fonts/Archivo/Archivo-SemiBoldItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-SemiBoldItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Thin";
+    src: url("/fonts/Archivo/Archivo-Thin.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-Thin.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Archivo-ThinItalic";
+    src: url("/fonts/Archivo/Archivo-ThinItalic.woff2") format("woff2"),
+      url("/fonts/Archivo/Archivo-ThinItalic.woff") format("woff"),
+      url("/fonts/Archivo/Archivo-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
